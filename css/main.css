@@ -26,7 +26,18 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: url(img/red-bg.jpg) repeat;
 		font-family: 'Roboto', sans-serif;
 		color: black;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+h1 {
+	font-family: 'Port Lligat Slab', serif;
+	color: #bc0000;
 }
