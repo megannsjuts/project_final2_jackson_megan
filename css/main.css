@@ -63,3 +63,9 @@ a {
 #wrapper {
 	background: #ffffff url(../img/red.jpg) repeat;
 }
+
+#header {
+	height: auto;
+	margin: 0 auto;
+	padding: 0px 0px;
+}
