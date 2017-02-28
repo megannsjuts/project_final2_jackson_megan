@@ -22,3 +22,11 @@ html {
     width: 1px;
     white-space: nowrap; /* 1 */
 }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/red-bg.jpg) repeat;
+		font-family: 'Roboto', sans-serif;
+		color: black;
+}
