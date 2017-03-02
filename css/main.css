@@ -69,18 +69,13 @@ a {
 
 #header {
 	height: auto;
-	margin: 0 auto;
-}
-
-#nav {
 	margin: auto;
-	height: auto;
 }
 
-#nav ul {
-    margin: 0px;
-    list-style: none;
-    line-height: normal;
+nav ul {
+	margin: auto;
+	text-align: center;
+	padding-bottom: .5em;
 }
 
 #nav a {
