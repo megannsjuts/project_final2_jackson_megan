@@ -11,9 +11,6 @@ html {
 .site-container {
 	max-width: 1000px;
 	background-color: #ffffff;
-	margin: auto;
-	width: 100%;
-
 }
 
 .visuallyhidden {
@@ -65,26 +62,19 @@ a {
 
 }
 
+#logo {
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+}
+
 #header {
-	width: 100%;
 	height: auto;
 	margin: 0 auto;
 }
 
-#logo {
-	margin: 0;
-	padding: 10px 0.5em;
-}
-
-@media (min-width: 500px) {
-	#logo {
-		padding: 30px 0;
-	}
-}
-
 #nav {
-    margin: 0 auto;
-    padding: 0;
+	margin: auto;
+	height: auto;
 }
 
 #nav ul {
@@ -99,10 +89,13 @@ a {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-		font-family: 'Port Lligat Slab', serif;
+		font-family: 'Roboto', sans-serif;
+		font-weight: bold;
+		font-size: 1.2em;
+		letter-spacing: 0.1em;
 		color: #bc0000;
 		border: none;
-}
+	}
 
 #nav a:hover {
     text-decoration: none;
@@ -111,20 +104,20 @@ a {
 
 @media all and (min-width: 500px) {
 	nav li {
-		width: 50%;
+		width: 100%;
 		display: inline-block;
 	}
 }
 
 @media all and (min-width: 750px) {
 	nav li {
-		width: calc(100% / 2);
+		width: calc(100% / 3);
 	}
 }
 
-@media all and (min-width: 1000px) {
+@media all and (min-width: 900px) {
 	nav li {
-		width: calc(100% / 4);
+		width: calc(100% / 6);
 	}
 }
 
@@ -158,12 +151,6 @@ main h1 {
 	 padding: 0px 0px 0px 30px;
 	 text-align: justify;
 }
-
-@media (min-width: 750px) {
-	#content {
-		margin-left: 1.5em;
-		width: calc(100% / 3 * 2);
-	}
 
 
 #footer {
