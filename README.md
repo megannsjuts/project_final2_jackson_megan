@@ -4,9 +4,9 @@
 
 [Web Host](http://www.building07.com/project_final2_jackson_megan/)
 
-[W3C Validator](https://validator.w3.org/nu/#textarea)
+[W3C Validator](https://validator.w3.org/nu/?doc=http%3A%2F%2Fwww.building07.com%2Fproject_final2_jackson_megan%2F)
 
-[HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py)
+[HTML5 Outliner](https://gsnedders.html5.org/outliner/process.py?url=http%3A%2F%2Fwww.building07.com%2Fproject_final2_jackson_megan%2F)
 
 # Resources
 
